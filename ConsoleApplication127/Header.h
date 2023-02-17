@@ -1,0 +1,35 @@
+#pragma once
+
+void FillArray(int arr[], int size);
+float FillArray(float arr[], int size);
+void ShowArray(int arr[], int size);
+void ShowArray(float arr[], int size);
+int multy(int arr[], int size, int n, int k, int* s, int* p);
+float multy(float arr[], int size, float* a, float *f);
+bool sum(int a, int n, int k);
+bool proiz(int a, int n, int k);
+bool proizved(float a);
+void vstavka(int arr[], int size);
+void udalenie(int arr[], int *size, int m);
+void vstavka(int arr[], int *size, int m, int c);
+void bubble(int arr[], int size);
+void peremesh(int arr[], int size);
+void LineSort(int arr[], int size);
+void poisk(int arr[], int *max, int *min, int size);
+int binarn(int arr[], int key, int size);
+void podschet(int arr[], int size, int* a, int* b, int* c, int *k, int o);
+bool bolshe(int a);
+bool menshe(int a);
+bool kratn(int a, int b);
+void vfile(int arr[], int size);
+void sortt(float arr[], int size);
+void vstavka(float arr[], int* size, int m, float c);
+void udalenie(float arr[], int* size, int m);
+void bubble(float arr[], int size);
+void peremesh(float arr[], int size);
+void LineSort(float arr[], int size);
+void vfile(float arr[], int size);
+void poisk(float arr[], float* max, float* min, int size);
+bool bolshe(float a);
+bool menshe(float a);
+void podschet(float arr[], int size, int* a, int* b, int* c);
